@@ -4,7 +4,9 @@ function fibonacci(){
     var arr = [];
     arr[0] = 0;
 
-    for(i = 0; i<10; i++){
+    var n = document.getElementById("n").value;
+
+    for(i = 0; i<n; i++){
         arr[i] = t1;
         next_value = t1+t2;
         t1 = t2;
